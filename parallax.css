@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    font-family: fantasy;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background-color: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    opacity: 0.9;
+}
+.logo {
+    font-size: 25px;
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: 600px;
+}
+nav a {
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+nav a:hover,
+nav a.active {
+    color: aquamarine;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.homebg {
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbg {
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicesbg {
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactbg {
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
